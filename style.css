@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background:#bfe8ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    position: absolute;
+}
+
+.swiper-slide img{
+    width:100%;
+}
+
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:white;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background-color: white;
+}
